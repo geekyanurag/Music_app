@@ -1,0 +1,43 @@
+*, body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+    background-image: url("player.jpg");
+}
+.container {
+    padding: 0px 20px;
+}
+h1 {
+    font-size: 50px;
+    color: tomato;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 27px;
+    padding-top: 20px;
+    color: #777;
+}
+
+.row {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+.column {
+    margin: 20px;
+}
+.artist__img {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+}
+
+.artist__name {
+    padding: 10px;
+    text-align: center; 
+}
